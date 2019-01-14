@@ -3,4 +3,5 @@ A collection of some [Amethyst](https://github.com/amethyst/amethyst) examples.
 
 ## Table of contents
 - [Camera](camera.md)
-  - [Orthographic](camera.md/#Orthographic)
+  - [Common pitfalls](camera.md/#common-pitfalls)
+  - [Orthographic](camera.md/#orthographic)
