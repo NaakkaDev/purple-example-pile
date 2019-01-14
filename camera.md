@@ -1,4 +1,4 @@
-# Camera 2D
+# Camera
 ## Orthographic
 ### Bottom left
 ![Image of grid with bottom left x y axis](images/grid-ortho-2d-xy-bottom-left.png)
@@ -110,8 +110,8 @@ world
     .with(Camera::from(Projection::orthographic(
         -width/2.0,
         width/2.0,
-        0.0,
         -height,
+        0.0,
     )))
     .build();
 ```
