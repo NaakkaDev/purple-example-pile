@@ -1,4 +1,8 @@
 # Camera
+## Common pitfalls
+### Entity/Sprite is not visible
+Camera probably has a too low Z-value so it's basically inside your entity/sprite.
+
 ## Orthographic
 ### Bottom left
 ![Image of grid with bottom left x y axis](images/grid-ortho-2d-xy-bottom-left.png)
@@ -115,3 +119,6 @@ world
     )))
     .build();
 ```
+
+## Perspective
+I haven't touched Perspective yet so.. ¯\_(ツ)_/¯
